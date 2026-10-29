@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA357CFEB693CB2997376228 /* Nota.swift in Sources */ = {isa = PBXBuildFile; fileRef = B671F9B5E3205AC57FDA1D85 /* Nota.swift */; };
+		8D5FB1A6BBA3EF6A3BFE13EB /* NotasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD5939D1DF7AE16B376ADA /* NotasApp.swift */; };
+		300B20CBAD2C2F0E612856CE /* ListaNotasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083C25DDD0E675FE5048AD44 /* ListaNotasView.swift */; };
+		74A21EEC9C7225D99654C00B /* NuevaNotaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49AFE356731A1065A5E55C8 /* NuevaNotaView.swift */; };
+		1858E11A882DFA4AC0BF917B /* EditarNotaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC6FD426E515051EF45F48E /* EditarNotaView.swift */; };
+		C5CACA5955A5E6CFC223889C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EAC6C648890C94B1536B62B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C646AFE5CD85D7DAC34A184E /* NotasSwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotasSwiftData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B671F9B5E3205AC57FDA1D85 /* Nota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nota.swift; sourceTree = "<group>"; };
+		FBFD5939D1DF7AE16B376ADA /* NotasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasApp.swift; sourceTree = "<group>"; };
+		083C25DDD0E675FE5048AD44 /* ListaNotasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaNotasView.swift; sourceTree = "<group>"; };
+		D49AFE356731A1065A5E55C8 /* NuevaNotaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevaNotaView.swift; sourceTree = "<group>"; };
+		DCC6FD426E515051EF45F48E /* EditarNotaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarNotaView.swift; sourceTree = "<group>"; };
+		4EAC6C648890C94B1536B62B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A82E6F678DA6193022955957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C217B7E49CE4218A745107D = {
+			isa = PBXGroup;
+			children = (
+				E59B6EB76C2459E1888CA873 /* NotasSwiftData */,
+				1DEFA2DBDC9661815A95F2D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E59B6EB76C2459E1888CA873 /* NotasSwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				B671F9B5E3205AC57FDA1D85 /* Nota.swift */,
+				FBFD5939D1DF7AE16B376ADA /* NotasApp.swift */,
+				083C25DDD0E675FE5048AD44 /* ListaNotasView.swift */,
+				D49AFE356731A1065A5E55C8 /* NuevaNotaView.swift */,
+				DCC6FD426E515051EF45F48E /* EditarNotaView.swift */,
+				4EAC6C648890C94B1536B62B /* Assets.xcassets */,
+			);
+			path = NotasSwiftData;
+			sourceTree = "<group>";
+		};
+		1DEFA2DBDC9661815A95F2D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C646AFE5CD85D7DAC34A184E /* NotasSwiftData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* NotasSwiftData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 477DE7A21D855BA1F4EBD94D /* Build configuration list for PBXNativeTarget "NotasSwiftData" */;
+			buildPhases = (
+				F6BE306E6A9E42DE559F6EDC /* Sources */,
+				A82E6F678DA6193022955957 /* Frameworks */,
+				7414EC6B391964FAEC8B0E90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotasSwiftData;
+			productName = NotasSwiftData;
+			productReference = C646AFE5CD85D7DAC34A184E /* NotasSwiftData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A7492CCDE30BE8F54F16B52E /* Build configuration list for PBXProject "NotasSwiftData" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C217B7E49CE4218A745107D;
+			productRefGroup = 1DEFA2DBDC9661815A95F2D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* NotasSwiftData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7414EC6B391964FAEC8B0E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CACA5955A5E6CFC223889C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6BE306E6A9E42DE559F6EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA357CFEB693CB2997376228 /* Nota.swift in Sources */,
+				8D5FB1A6BBA3EF6A3BFE13EB /* NotasApp.swift in Sources */,
+				300B20CBAD2C2F0E612856CE /* ListaNotasView.swift in Sources */,
+				74A21EEC9C7225D99654C00B /* NuevaNotaView.swift in Sources */,
+				1858E11A882DFA4AC0BF917B /* EditarNotaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		887A5C7011C9BCE00F732710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		424492294FC90F3B1A875595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B31FC737F45AD4B4E86B0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Notas;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NotasSwiftData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		715FB83D92EC3BF822F73DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Notas;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NotasSwiftData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7492CCDE30BE8F54F16B52E /* Build configuration list for PBXProject "NotasSwiftData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887A5C7011C9BCE00F732710 /* Debug */,
+				424492294FC90F3B1A875595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		477DE7A21D855BA1F4EBD94D /* Build configuration list for PBXNativeTarget "NotasSwiftData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B31FC737F45AD4B4E86B0FC /* Debug */,
+				715FB83D92EC3BF822F73DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
